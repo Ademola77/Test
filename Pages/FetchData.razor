@@ -1,5 +1,6 @@
 ﻿@page "/fetchdata"
 @page "/Test/fetchdata"
+
 @inject HttpClient Http
 
 <PageTitle>Weather forecast</PageTitle>
@@ -8,7 +9,9 @@
 
 <p>This component demonstrates fetching data from the server.</p>
 
-<a href="/Test/speak">Go to Speak Component</a>
+<a href="/speak">Go to Speak Component</a> |
+<a href="/Test/speak">Go to Speak Component 2</a>|
+<a href="/test/speak">Go to Speak Component 3</a>
 
 @if (forecasts == null)
 {
