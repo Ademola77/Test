@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AEeiAutPtJe6obGaTeRB32VlBRuoOaFDP4DjpLmELsN18F25/EQjEzUGnA//mw1nFjlgbE1jFZDhFdQ7yc1Xsw==",
+  "dgSpecHash": "KN/F0tAn9XNumaVqfr1pl/vvgqdWHGf3/IuL/6USYbDNUpYWcYKXFYJaRE2skEsPPmKITGLr+gM8HkhhQjkteg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ademo\\source\\repos\\Test\\Test.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,11 @@
     "C:\\Users\\ademo\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\ademo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\ademo\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\ademo\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\ademo\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\ademo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\ademo\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.15\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.15.nupkg.sha512",
+    "C:\\Users\\ademo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\ademo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512"
   ],
   "logs": []
 }
