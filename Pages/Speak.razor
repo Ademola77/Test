@@ -7,10 +7,9 @@
 <h3>Speak</h3><hr />
 
 <marquee>Hello Africa</marquee><hr />
-<a href="/fetchdata">Go to Fetch Data Component</a> |
-<a href="/Test/fetchdata">Go to Fetch Data Component</a> |
+<a href="/fetchdata">Go to Fetch Data Component oo</a> |
+<a href="@((string.IsNullOrEmpty(data.GithubRoot))? "/fetchdata": "/"+@data.GithubRoot+"/fetchdata")">Go to Fetch Data Componentxx</a> |
 <a href="/test/fetchdata">Go to Fetch Data Component</a>
-
 
 @code {
 

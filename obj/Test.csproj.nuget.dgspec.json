@@ -52,6 +52,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "SqliteWasmHelper": {
+              "target": "Package",
+              "version": "[1.0.43-beta-g31b50d1f54, )"
             }
           },
           "imports": [
@@ -72,10 +80,6 @@
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.15, 6.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
               "version": "[6.0.15, 6.0.15]"
             },
             {

@@ -7,3 +7,75 @@
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+<hr />
+What is your name Pinky?
+<input type="text" @bind-value="currentName" />
+<button onclick="@(()=>AddTaskToList(currentName))" class="btn btn-info">Add To List</button>
+<hr />
+@if (ToDoList is null) // If data from WebApi has not finished loading.
+{
+    <p>Loading ......</p>
+}
+
+
+else    //All your code should be here. If data from WebApi is ready, then run this.
+{
+
+   
+    <p>Total: @ToDoList.Count</p>
+    @foreach (var task in ToDoList)
+    {
+        <ul>
+            <li><b> @task.Id -</b>@task.Namex <button onclick="@(()=>RemoveTaskToList(task.Id))" class="btn btn-primary offset-1">Remove</button></li>
+        </ul>
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@code
+{
+    public string currentName { get; set; } = string.Empty;
+    public List<ToDoItem> ToDoList { get; set; } = new() ;
+
+    protected async override void OnInitialized()
+    {
+        //ToDoList = await todoData.FetchTaskToDoList();
+        //StateHasChanged();
+        FetchTaskList();
+        base.OnInitialized();
+
+    }
+
+
+
+    public async void FetchTaskList()
+    {
+        ToDoList = await todoData.FetchTaskToDoList();
+        StateHasChanged(); //Remember to do this always
+    }
+
+    public async void AddTaskToList(string x)
+    {
+        ToDoList = ((await todoData.AddTaskToList(x)).ToList()) ;
+        currentName = string.Empty;
+    }
+
+    public async void RemoveTaskToList(int x)
+    {
+         await todoData.RemoveFromTaskToDoList(x) ;
+        FetchTaskList();
+    }
+
+}
