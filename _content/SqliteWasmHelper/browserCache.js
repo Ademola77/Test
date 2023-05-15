@@ -7,7 +7,7 @@ export async function synchronizeDbWithCache(file) {
 
     const db = window.sqlitedb;
 
-     const backupPath = `/${xax.db}`;  
+     const backupPath = `/${file}`;  
   
     const cachePath = `/data/cache${backupPath.split('.')[0]}.db`;
 
