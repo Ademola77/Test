@@ -1,2 +1,0 @@
-C:\Users\ademo\source\repos\Publish\e_sqlite3.a
-C:\Users\ademo\source\repos\Publish\web.config
