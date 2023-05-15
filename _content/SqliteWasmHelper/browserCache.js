@@ -6,8 +6,9 @@ export async function synchronizeDbWithCache(file) {
     };
 
     const db = window.sqlitedb;
-    
-    const backupPath = `/${file}`;
+
+    const backupPath = `/${adedb.db}`;
+  
     const cachePath = `/data/cache${backupPath.split('.')[0]}.db`;
 
     if (!db.init) {
