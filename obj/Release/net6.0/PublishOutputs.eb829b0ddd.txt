@@ -1,4 +1,0 @@
-C:\Users\ademo\source\repos\Publish2\adecv.csv
-C:\Users\ademo\source\repos\Publish2\wwwroot\adecv.csv
-C:\Users\ademo\source\repos\Publish2\e_sqlite3.a
-C:\Users\ademo\source\repos\Publish2\web.config
