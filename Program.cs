@@ -18,4 +18,6 @@ builder.Services.AddSqliteWasmDbContextFactory<ToDoContext>(x=>x.UseSqlite("Data
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
+
+
 await builder.Build().RunAsync();

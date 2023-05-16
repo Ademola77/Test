@@ -7,6 +7,6 @@
 -DGEN_PINVOKE=1
 -emit-llvm
 "-IC:\Users\ademo\source\repos\Test\obj\Debug\net6.0\wasm\for-build"
-"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\6.0.16\runtimes\browser-wasm\native\include\mono-2.0"
-"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\6.0.16\runtimes\browser-wasm\native\include\wasm"
+"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\6.0.9\runtimes\browser-wasm\native\include\mono-2.0"
+"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\6.0.9\runtimes\browser-wasm\native\include\wasm"
 -g

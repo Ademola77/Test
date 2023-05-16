@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4pYEFC7zoHbMiQY2T5skB3zobWGR6ZGfBmz058CmyAs=",
+  "Hash": "kb2268jDEaQ6dmPXk3Y/3IiXN6WJatALNkoBAoVJoIs=",
   "Source": "Test",
   "BasePath": "/",
   "Mode": "Root",
@@ -29,7 +29,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\sqlitewasmhelper\\1.0.43-beta-g31b50d1f54\\contentFiles\\any\\net6.0\\wwwroot\\browserCache.js"
     },

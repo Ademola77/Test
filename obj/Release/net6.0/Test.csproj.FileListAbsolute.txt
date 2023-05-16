@@ -688,8 +688,11 @@ C:\Users\ademo\source\repos\Test\obj\Release\net6.0\build-gz\vQJPENT7.gz
 C:\Users\ademo\source\repos\Test\obj\Release\net6.0\build-gz\uqOs6wmy.gz
 C:\Users\ademo\source\repos\Test\obj\Release\net6.0\build-gz\ZO99+8WH.gz
 C:\Users\ademo\source\repos\Test\obj\Release\net6.0\build-gz\4jYnWimP.gz
+C:\Users\ademo\source\repos\Test\bin\Release\net6.0\wwwroot\browserCache.js
 C:\Users\ademo\source\repos\Test\bin\Release\net6.0\wwwroot\_framework\dotnet..nin7xmnx7b.js
 C:\Users\ademo\source\repos\Test\bin\Release\net6.0\wwwroot\_framework\dotnet..nin7xmnx7b.js.gz
+C:\Users\ademo\source\repos\Test\bin\Release\net6.0\adecv.csv
+C:\Users\ademo\source\repos\Test\bin\Release\net6.0\wwwroot\adecv.csv
 C:\Users\ademo\source\repos\Test\obj\Release\net6.0\wasm\for-build\pinvoke-table.h
 C:\Users\ademo\source\repos\Test\obj\Release\net6.0\wasm\for-build\runtime-icall-table.h
 C:\Users\ademo\source\repos\Test\obj\Release\net6.0\wasm\for-build\icall-table.h

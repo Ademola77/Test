@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SqliteWasmHelper;
 using System.Diagnostics;
+using System.IO;
 
 namespace Test.Data
 {
@@ -53,6 +54,29 @@ namespace Test.Data
         }
 
 
+        public void GetCsvData()
+        {
+            string FilePath = "F:/adecv.csv";
+           
+            try
+            {
+                using (var sreader = new StreamReader(FilePath))
+                {
+                    string line;
+                    while ((line = sreader.ReadLine()) != null)
+                    {
+                        Console.WriteLine(line);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+
+            }
+
+            Console.ReadKey();
+        }
 
 
 
