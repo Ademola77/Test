@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xZEjhWYoxHmlpqAV9u8f+ZAMRfyzKaJsgtE+u9oJT+Y=",
+  "Hash": "CIt9JuRCxtyaUCZjTvSJnEpmuQTQztDBUYDlE772TE4=",
   "Source": "Test",
   "BasePath": "/",
   "Mode": "Root",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.9\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Test\\bin\\Debug\\net6.0\\wwwroot\\_framework\\LINQtoCSV.dll",
+      "SourceId": "Test",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Test\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/LINQtoCSV.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\linqtocsvcore\\1.6.2\\lib\\net6.0\\LINQtoCSV.dll"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Test\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -5780,6 +5797,23 @@
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Test\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Win32.Registry.dll"
     },
     {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Test\\obj\\Debug\\net6.0\\build-gz\\kXmDvFnV.gz",
+      "SourceId": "Test",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Test\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/LINQtoCSV.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Test\\bin\\Debug\\net6.0\\wwwroot\\_framework\\LINQtoCSV.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Test\\bin\\Debug\\net6.0\\wwwroot\\_framework\\LINQtoCSV.dll"
+    },
+    {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Test\\obj\\Debug\\net6.0\\build-gz\\LdKC8KVY.gz",
       "SourceId": "Test",
       "SourceType": "Computed",
@@ -7563,6 +7597,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Test\\wwwroot\\sample-data\\ToDoItems.json",
+      "SourceId": "Test",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Test\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "sample-data/ToDoItems.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample-data\\ToDoItems.json"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Test\\wwwroot\\sample-data\\weather.json",

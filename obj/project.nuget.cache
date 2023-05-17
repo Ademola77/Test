@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZLSMHZe/k+b83Kdv4bqQ9xLIJ1KGPr9M/rViElg+cL+ocKHE0uSvgWQRUb+NvLa9DDiLJPtMu/vJHCMbZ9B+cg==",
+  "dgSpecHash": "gJbRaEGYvaPP5M+vHh21ugl1GEt6MiBdv91YlqCK6aEmmoar1I/rx/EVKNQg4ZJrTedyMAgaH9lzGRWuaxj+pw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ademo\\source\\repos\\Test\\Test.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ademo\\.nuget\\packages\\linqtocsvcore\\1.6.2\\linqtocsvcore.1.6.2.nupkg.sha512",
     "C:\\Users\\ademo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.9\\microsoft.aspnetcore.authorization.6.0.9.nupkg.sha512",
     "C:\\Users\\ademo\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.9\\microsoft.aspnetcore.components.6.0.9.nupkg.sha512",
     "C:\\Users\\ademo\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.9\\microsoft.aspnetcore.components.analyzers.6.0.9.nupkg.sha512",

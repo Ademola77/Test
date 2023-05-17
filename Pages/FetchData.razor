@@ -38,15 +38,64 @@ else
                     <td>@forecast.Summary</td>
                 </tr>
             }
+
+
+           
+
+
         </tbody>
     </table>
+
 }
+
+
+
+<hr>
+
+@if (products == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name. (C)</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in products)
+            {
+                <tr>
+                    <td>@forecast.Id</td>
+                    <td>@forecast.Namex</td>
+
+                </tr>
+            }
+
+
+
+
+
+        </tbody>
+    </table>
+
+}
+
+
+
 
 @code {
     private WeatherForecast[]? forecasts;
+    private Product[]? products;
 
     protected override async Task OnInitializedAsync()
     {
+         products = await Http.GetFromJsonAsync<Product[]>("sample-data/ToDoItems.json");
+
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
     }
 

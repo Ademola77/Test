@@ -1,4 +1,5 @@
 ﻿@page "/"
+@inject HttpClient Http
 
 <PageTitle>Index</PageTitle>
 
@@ -36,7 +37,25 @@ else    //All your code should be here. If data from WebApi is ready, then run t
 
 
 
+@if (ProductList is null) // If data from WebApi has not finished loading.
+{
+    <p>Loading ......</p>
+}
 
+
+else    //All your code should be here. If data from WebApi is ready, then run this.
+{
+
+
+    <p>Total: @ProductList.Count</p>
+    @foreach (var product in ProductList)
+    {
+        <ul>
+            <li><b> @product.Id-</b>@product.Namex </li>
+        </ul>
+
+    }
+}
 
 
 
@@ -48,15 +67,13 @@ else    //All your code should be here. If data from WebApi is ready, then run t
 {
     public string currentName { get; set; } = string.Empty;
     public List<ToDoItem> ToDoList { get; set; } = new() ;
+    public List<Product> ProductList { get; set; } = new() ;
 
     protected async override void OnInitialized()
     {
-        //ToDoList = await todoData.FetchTaskToDoList();
-        //StateHasChanged();
 
-        //todoData.GetCsvData();
-
-        FetchTaskList();
+         FetchProductList();
+        //FetchTaskList();
         base.OnInitialized();
 
     }
@@ -77,8 +94,17 @@ else    //All your code should be here. If data from WebApi is ready, then run t
 
     public async void RemoveTaskToList(int x)
     {
-         await todoData.RemoveFromTaskToDoList(x) ;
+        await todoData.RemoveFromTaskToDoList(x) ;
         FetchTaskList();
     }
+
+
+
+    public async void FetchProductList()
+    {
+        ProductList = await todoData.GetJsonData();
+        StateHasChanged(); //Remember to do this always
+    }
+
 
 }
