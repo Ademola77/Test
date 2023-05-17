@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gJbRaEGYvaPP5M+vHh21ugl1GEt6MiBdv91YlqCK6aEmmoar1I/rx/EVKNQg4ZJrTedyMAgaH9lzGRWuaxj+pw==",
+  "dgSpecHash": "0+SGL79Q3TO+9mD7yI5YswCdH7dZUcR/g1Pgfe7KN9XWHiBUAOwMz1LdYhH8iHBVOJtAmBY/NHRsn+zbi1s69A==",
   "success": true,
   "projectFilePath": "C:\\Users\\ademo\\source\\repos\\Test\\Test.csproj",
   "expectedPackageFiles": [
@@ -50,10 +50,7 @@
     "C:\\Users\\ademo\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\ademo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\ademo\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\ademo\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\ademo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
-    "C:\\Users\\ademo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
-    "C:\\Users\\ademo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512"
+    "C:\\Users\\ademo\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

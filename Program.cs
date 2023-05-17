@@ -15,7 +15,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddSingleton<AppData>();
 
 builder.Services.AddScoped<ToDoService>();
-builder.Services.AddSqliteWasmDbContextFactory<ToDoContext>(x=>x.UseSqlite("Data Source =adedb.sqlite3"));
+//builder.Services.AddSqliteWasmDbContextFactory<ToDoContext>(x=>x.UseSqlite("Data Source =adedb.sqlite3"));
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
