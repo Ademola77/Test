@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\ademo\\source\\repos\\Test\\wwwroot\\sample-data\\ToDoItems.json",
+      "PackagePath": "staticwebassets\\sample-data\\ToDoItems.json"
+    },
+    {
       "Id": "C:\\Users\\ademo\\source\\repos\\Test\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },

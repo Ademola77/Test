@@ -1,1 +1,3 @@
+C:\Users\ademo\source\repos\publish3\wwwroot\adecv.csv
+C:\Users\ademo\source\repos\publish3\e_sqlite3.a
 C:\Users\ademo\source\repos\publish3\web.config
